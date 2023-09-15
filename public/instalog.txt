@@ -1,0 +1,4 @@
+npm install @jiaminghi/data-view
+npm install echarts
+npm install axios
+npm install element
