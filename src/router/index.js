@@ -39,6 +39,11 @@ const routes = [
     path: '/boarddatav',
     name: 'boarddatav',
     component: () => import('../views/element/BoardDatav.vue')
+  },
+  {
+    path: '/crouterview1',
+    name: 'crouterview1',
+    component: () => import('../views/element/CRouterView1.vue')
   }
 ]
 

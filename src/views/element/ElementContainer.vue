@@ -27,6 +27,11 @@
               <el-menu-item index="/boardtest1">echarts 组合</el-menu-item>
               <el-menu-item index="/boarddatav">echarts DataV 封装</el-menu-item>
             </el-submenu>
+            <el-submenu index="3">
+              <template slot="title"><i class="el-icon-menu"></i>子路由调试</template>
+              <el-menu-item index="/crouterview1">导航栏切换子路由</el-menu-item>
+              <!-- <el-menu-item index="/boarddatav">echarts DataV 封装</el-menu-item> -->
+            </el-submenu>
           </el-menu>
         </el-aside>
         <el-container>
