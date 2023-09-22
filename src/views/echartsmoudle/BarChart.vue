@@ -6,6 +6,8 @@
 
 <script>
 import * as echarts from 'echarts'
+import 'echarts/theme/dark-blue.js'
+
 export default {
     name: "BarChart",
     props:{
@@ -36,6 +38,7 @@ export default {
     mounted() {
         //this.$refs.main
         //var myChart = echarts.init(document.getElementById('main'));
+        // var myChart = echarts.init(this.$refs.main, 'dark-blue');
         var myChart = echarts.init(this.$refs.main);
         // 绘制图表
         myChart.setOption({

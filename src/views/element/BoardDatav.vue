@@ -1,5 +1,5 @@
 <template>
-    <div id="boarddatav" style="background: #222;">
+    <div id="boarddatav" style="background: #81fae07c;">
         <!-- 全屏容器   会强制覆盖全屏包括导航栏 -->
         <!-- <dv-full-screen-container>content</dv-full-screen-container> -->
         <dv-loading v-if="true">Loading...</dv-loading>

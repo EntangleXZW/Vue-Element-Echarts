@@ -17,7 +17,7 @@ export default {
         this.myChart = null;
         this.option = {
             title: {
-                text: 'Bar Demo 2'
+                text: ''
             },
             tooltip: {
                 trigger: 'axis'

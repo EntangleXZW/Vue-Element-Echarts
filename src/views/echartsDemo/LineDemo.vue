@@ -62,7 +62,7 @@ export default {
         });
     },
     mounted() {
-        this.myChart = this.$echarts.init(document.getElementById('bar-chart'))
+        this.myChart = this.$echarts.init(document.getElementById('bar-chart'), 'dark')
         // console.log(this.option);
         this.myChart.setOption(this.option);
         window.myChart = this.myChart;

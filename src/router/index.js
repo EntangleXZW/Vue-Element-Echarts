@@ -43,7 +43,24 @@ const routes = [
   {
     path: '/crouterview1',
     name: 'crouterview1',
-    component: () => import('../views/element/CRouterView1.vue')
+    component: () => import('@/views/element/CRouterView1.vue'),
+    children: [
+      // {
+      //   path: '',
+      //   name: 'bardemo11',
+      //   component: () => import('../views/echartsDemo/BarDemo1.vue')
+      // },
+      {
+        path: 'bardemo11',
+        name: 'bardemo11',
+        component: () => import('../views/echartsDemo/BarDemo1.vue')
+      },
+      {
+        path: 'bardemo22',
+        name: 'bardemo22',
+        component: () => import('../views/echartsDemo/BarDemo2.vue')
+      }
+    ]
   }
 ]
 
