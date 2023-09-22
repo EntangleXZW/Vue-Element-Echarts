@@ -1,4 +1,14 @@
-# vue-project
+# Vue-Element-Echarts
+
+## Project pre
+- install node.js
+- install @vue/cli
+  ```
+  npm install @vue/cli -s
+  ```
+- create vue project
+> 1. open the folder which you want create your vue project in, key "cmd" in and input "vue ui"
+> 2. input "vue create your-vue-project-name" directly in cmd
 
 ## Project setup
 ```
