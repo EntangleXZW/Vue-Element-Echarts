@@ -61,6 +61,11 @@ const routes = [
         component: () => import('../views/echartsDemo/BarDemo2.vue')
       }
     ]
+  },
+  {
+    path: '/boardtable',
+    name: 'boardtable',
+    component: () => import('../views/element/BoardTable.vue')
   }
 ]
 
